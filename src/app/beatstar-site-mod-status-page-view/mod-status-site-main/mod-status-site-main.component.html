@@ -3,7 +3,7 @@
         <mat-icon>menu</mat-icon>
     </button>
     <mat-icon>bar_chart</mat-icon>
-    <span>Beatstar Mod Status</span>
+    <span>Mod Status</span>
     <span class="example-spacer"></span>
     <!--
         <button mat-button>Home</button>
@@ -12,8 +12,8 @@
         <button mat-button>Old site</button>
     -->
     <span class="example-spacer"></span>
-    <span *ngIf="status==Status.S">SERVER IS UP</span>
-    <span *ngIf="status==Status.E">SERVER IS DOWN</span>
+    <span *ngIf="status==Status.S">Server UP</span>
+    <span *ngIf="status==Status.E">Server DOWN</span>
       &nbsp;
     <mat-icon *ngIf="status==Status.W" class="warning-icon" aria-hidden="false"
         aria-label="Warning icon">warning</mat-icon>
